@@ -5,6 +5,7 @@ export default extendTheme({
     global: {
       body: {
         color: "blackAlpha.900",
+        backgroundColor: "#EDEDED",
       },
     },
   },
@@ -74,6 +75,25 @@ export default extendTheme({
             backgroundColor: `${colorScheme}.100`,
           },
         }),
+        nav: {
+          color: "#333",
+          fontSize: "14px",
+          paddingInlineStart: "0",
+          paddingInlineEnd: "0",
+          fontWeight: "400",
+          ":hover, :focus": {
+            fontWeight: `bold`,
+            transition: "all .5s ease",
+          },
+        },
+      },
+    },
+    MenuButton: {
+      variants: {
+        light: {
+          color: "rgba(51,51,51,.6)",
+          fontSize: "14px",
+        },
       },
     },
     Input: {
@@ -96,6 +116,18 @@ export default extendTheme({
           field: {
             borderColor: "gray.300",
           },
+        },
+      },
+    },
+    Text: {
+      variants: {
+        semidark: {
+          color: "blackAlpha.800",
+          fontSize: "14px",
+        },
+        light: {
+          color: "blackAlpha.600",
+          fontSize: "14px",
         },
       },
     },

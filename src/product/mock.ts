@@ -66,6 +66,23 @@ export default {
       descriptions: [
         {
           id: "MLA741093357-1768858232",
+          text: `PELUCHE IMPORTADO PERSONAJE STITCH
+
+          MEDIDA 1 METRO (100 CM )
+          
+          GIGANTE
+          
+          DISPONIBLE: STITCH (CELESTE) O ANGEL (ROSA)
+          
+          SE PUEDE RETIRAR POR:
+          
+          • AV. CORRIENTES Y URUGUAY
+          
+          • VILLA PUEYRREDON
+          
+          Realizamos envíos por motomensajeria y tambien por correo argentino a todo el país
+          
+          ****NO SE OLVIDE DE VISITAR TODOS NUESTROS PRODUCTOS****`,
         },
       ],
       accepts_mercadopago: true,
