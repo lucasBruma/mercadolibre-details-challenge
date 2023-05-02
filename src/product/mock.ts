@@ -19,6 +19,15 @@ export default {
       sold_quantity: 50,
       sale_terms: [],
       buying_mode: "buy_it_now",
+      suggestions: [
+        "botines adidas",
+        "botines futsal",
+        "penalty",
+        "predator",
+        "zapatillas futbol",
+        "botines negros",
+        "botines nike hypervenom",
+      ],
       listing_type_id: "gold_special",
       start_time: "2018-08-04T02:27:28.000Z",
       stop_time: "2038-07-29T04:00:00.000Z",
@@ -31,32 +40,32 @@ export default {
       pictures: [
         {
           id: "978173-MLA32582347639_102019",
-          url: "http://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
+          url: "https://http2.mlstatic.com/D_NQ_NP_604484-MLA46203315536_052021-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_604484-MLA46203315536_052021-O.webp",
           size: "500x496",
           max_size: "1200x1192",
           quality: "",
         },
         {
           id: "754004-MLA32299823528_092019",
-          url: "http://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
+          url: "https://http2.mlstatic.com/D_NQ_NP_614798-MLA46203315534_052021-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_614798-MLA46203315534_052021-O.webp",
           size: "500x396",
           max_size: "1200x951",
           quality: "",
         },
         {
           id: "616691-MLA27900381255_082018",
-          url: "http://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
+          url: "https://http2.mlstatic.com/D_NQ_NP_809483-MLA46203315533_052021-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_809483-MLA46203315533_052021-O.webp",
           size: "500x500",
           max_size: "800x800",
           quality: "",
         },
         {
           id: "918230-MLA31424182281_072019",
-          url: "http://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
-          secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
+          url: "https://http2.mlstatic.com/D_NQ_NP_692631-MLA46203315535_052021-O.webp",
+          secure_url: "https://http2.mlstatic.com/D_NQ_NP_692631-MLA46203315535_052021-O.webp",
           size: "281x500",
           max_size: "1080x1920",
           quality: "",
@@ -66,23 +75,17 @@ export default {
       descriptions: [
         {
           id: "MLA741093357-1768858232",
-          text: `PELUCHE IMPORTADO PERSONAJE STITCH
+          text: `Recorda que este es un producto ficticio.
 
-          MEDIDA 1 METRO (100 CM )
+Somos Mbappé Sports, con más de 60 años de trayectoria en el mercado que nos avalan y más de 50 sucursales distribuidas a lo largo de Buenos Aires, La Pampa y Río Negro. Queremos que vivas la Experiencia Open Sports a través de nuestro estilo de atención y servicio: comprometido, cálido y cercano.
+
+¿Hacen envíos? Si, hacemos envíos a todo el país y despachamos dentro de las 24 hs de realizada la compra.
+
+¿Hacen Factura? Si, hacemos factura B, no olvides completar los datos de la facturación al momento de realizar la compra.
           
-          GIGANTE
+¿Puedo cambiar el talle de mi producto? Podes realizar el cambio por medio de la plataforma o acercándote a cualquiera de nuestras sucursales, siempre y cuando tengamos disponibilidad de stock. Tenés 30 días a partir del momento en que te llega el producto Garantía Open Sports te da una garantía de fábrica de 6 meses.
           
-          DISPONIBLE: STITCH (CELESTE) O ANGEL (ROSA)
-          
-          SE PUEDE RETIRAR POR:
-          
-          • AV. CORRIENTES Y URUGUAY
-          
-          • VILLA PUEYRREDON
-          
-          Realizamos envíos por motomensajeria y tambien por correo argentino a todo el país
-          
-          ****NO SE OLVIDE DE VISITAR TODOS NUESTROS PRODUCTOS****`,
+¡Comprá tranquilo! Tenés 30 días para realizar la devolución. Todos nuestros productos son originales y de primeras marcas.`,
         },
       ],
       accepts_mercadopago: true,
