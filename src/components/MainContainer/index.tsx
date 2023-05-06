@@ -5,6 +5,7 @@ import Gallery from "../Gallery";
 import Carrousel from "../Carrousel";
 import Features from "../Features";
 import Description from "../Description";
+import QyA from "../QyA";
 
 const MainContainer: React.FC = () => {
   return (
@@ -23,7 +24,10 @@ const MainContainer: React.FC = () => {
         <Gallery />
         <Carrousel />
         <Features />
-        <Description />
+        <VStack>
+          <Description />
+          <QyA />
+        </VStack>
       </VStack>
       <Box>Holi</Box>
     </HStack>

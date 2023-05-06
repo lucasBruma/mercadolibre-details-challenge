@@ -135,3 +135,9 @@ export interface Rule {
   free_shipping_flag: boolean;
   value: null;
 }
+
+export interface QuestionsTypes {
+  question: string;
+  answer: string;
+  date: string;
+}

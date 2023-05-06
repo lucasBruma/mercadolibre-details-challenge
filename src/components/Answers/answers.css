@@ -1,0 +1,15 @@
+.reportA {
+display: none;
+}
+
+.reportQ {
+display: none;
+}
+
+.question:hover .reportQ {
+display: block !important;
+}
+
+.answer:hover .reportA {
+display: block !important;
+}

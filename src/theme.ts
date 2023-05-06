@@ -86,6 +86,18 @@ export default extendTheme({
             transition: "all .5s ease",
           },
         },
+        lightblue: {
+          color: "#3483fa",
+          background: "#e2eefb",
+        },
+        blue: {
+          color: "#fffdff",
+          background: "#3483fa",
+          ":hover": {
+            backgroundColor: "#2968C8",
+            transition: "0.3s",
+          },
+        },
       },
     },
     MenuButton: {
