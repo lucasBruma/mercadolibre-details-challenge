@@ -14,3 +14,9 @@ export interface Product extends Record<string, any> {
   condition?: string;
   pictures?: ProductPicture[];
 }
+
+export interface Review {
+  stars: string;
+  value: number;
+  people: number;
+}

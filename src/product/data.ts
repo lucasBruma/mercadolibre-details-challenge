@@ -137,7 +137,7 @@ export interface Rule {
 }
 
 export interface QuestionsTypes {
-  question: string;
-  answer: string;
-  date: string;
+  question?: string;
+  answer?: string;
+  date?: string;
 }

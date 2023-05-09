@@ -29,16 +29,15 @@ const Questions = ({setQuestions, questions}: Props): JSX.Element => {
     if (condition) {
       if (value.trim().length > 2) {
         setQuestions([
-          ...questions,
           {
             question: value,
-            answer:
-              "¡Hola! Gracias por contactarnos. Nos pondremos en contacto contigo lo antes posible.",
+            answer: "¡Hola! Nos pondremos en contacto contigo lo antes posible.",
             date: `${date.getDate()}/${String(date.getMonth() + 1).padStart(
               2,
               "0",
             )}/${date.getFullYear()}`,
           },
+          ...questions,
         ]);
         ref.current!.value = "";
       }

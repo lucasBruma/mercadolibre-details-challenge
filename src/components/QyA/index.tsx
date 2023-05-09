@@ -8,10 +8,7 @@ import {
   Heading,
   Flex,
   Button,
-  Input,
-  FormControl,
-  FormLabel,
-  FormHelperText,
+  Link,
 } from "@chakra-ui/react";
 
 import Gallery from "../Gallery";
@@ -20,6 +17,7 @@ import Features from "../Features";
 import get from "../../product/mock";
 import Questions from "../Questions";
 import Answers from "../Answers";
+import Opinions from "../Opinions";
 import {QuestionsTypes} from "../../product/data";
 
 const faqs: string[] = [
@@ -74,6 +72,10 @@ const QyA: React.FC = () => {
       </VStack>
       <Questions questions={questions} setQuestions={setQuestions} />
       <Answers questions={questions} />
+      <Link fontSize="14px" variant="color">
+        Ver todas las preguntas
+      </Link>
+      <Opinions />
     </VStack>
   );
 };
