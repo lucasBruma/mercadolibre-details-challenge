@@ -21,6 +21,7 @@ export default extendTheme({
       700: "#CCC147",
       800: "#BFB543",
       900: "#BFB543",
+      1000: "#4aa956",
     },
     secondary: {
       ...theme.colors.messenger,
@@ -96,6 +97,12 @@ export default extendTheme({
           ":hover": {
             backgroundColor: "#2968C8",
             transition: "0.3s",
+          },
+        },
+        none: {
+          ":focus, :active": {
+            border: "none",
+            outline: "none",
           },
         },
       },

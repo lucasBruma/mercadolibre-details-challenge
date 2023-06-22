@@ -6,10 +6,12 @@ import Carrousel from "../Carrousel";
 import Features from "../Features";
 import Description from "../Description";
 import QyA from "../QyA";
+import Aside from "../Aside";
 
 const MainContainer: React.FC = () => {
   return (
     <HStack
+      alignItems="flex-start"
       background="#fff"
       borderRadius="5px"
       boxShadow="sm"
@@ -29,7 +31,7 @@ const MainContainer: React.FC = () => {
           <QyA />
         </VStack>
       </VStack>
-      <Box>Holi</Box>
+      <Aside />
     </HStack>
   );
 };

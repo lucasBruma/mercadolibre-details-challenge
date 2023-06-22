@@ -57,11 +57,13 @@ const OpinionComment = ({comment, date}: Props): JSX.Element => {
                 Es útil
               </Text>
             )}
-            <Icon as={AiOutlineLike} mr={"5px"} />
+            {!likedComment && <Icon as={AiOutlineLike} mr={"5px"} />}
+            {likedComment && <Icon as={AiFillLike} mr={"5px"} />}
             {count}
           </Button>
           <Button borderRadius="20px" colorScheme="gray" variant="outline" onClick={handleDisliked}>
-            <Icon as={AiOutlineDislike} />
+            {dislikedComment && <Icon as={AiFillDislike} />}
+            {!dislikedComment && <Icon as={AiOutlineDislike} />}
           </Button>
         </HStack>
         <Button borderRadius="20px" colorScheme="gray" variant="none">
