@@ -141,3 +141,8 @@ export interface QuestionsTypes {
   answer?: string;
   date?: string;
 }
+
+export interface Opinion {
+  comment: string;
+  date: string;
+}
