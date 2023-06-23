@@ -8,13 +8,12 @@
     "theme": "chakra-cli tokens ./src/theme.ts"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^1.5.2",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "framer-motion": "^4.1.8",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": ">=18",
+    "react-dom": ">=18",
     "react-icons": "^4.8.0",
     "react-router-dom": "^5.2.0",
     "swiper": "^9.2.4"

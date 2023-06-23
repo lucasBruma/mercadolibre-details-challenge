@@ -16,7 +16,6 @@ import {AiOutlineSearch, AiOutlineShoppingCart} from "react-icons/ai";
 import {SlLocationPin, SlBell} from "react-icons/sl";
 import {BiUser, BiChevronDown} from "react-icons/bi";
 import {Menu, MenuButton, MenuList, MenuItem, MenuGroup} from "@chakra-ui/react";
-import {ChevronDownIcon} from "@chakra-ui/icons";
 
 import logo from "../../assets/MyLogo.png";
 
@@ -164,7 +163,7 @@ const Navbar: React.FC = () => {
               <Menu>
                 <MenuGroup>
                   <HStack color="blackAlpha.800" fontSize="14px" spacing={5}>
-                    <MenuButton _hover={{color: "blackAlpha.900"}} rightIcon={<ChevronDownIcon />}>
+                    <MenuButton _hover={{color: "blackAlpha.900"}}>
                       <HStack spacing={1}>
                         <Icon as={BiUser} fontSize="24px" marginRight="8px" />
                         <HStack spacing={0}>
