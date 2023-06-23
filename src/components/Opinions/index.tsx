@@ -54,7 +54,7 @@ const Opinions = (): JSX.Element => {
               <Icon as={BiChevronDown} ml="5px" />
             </Button>
           </HStack>
-          <VStack divider={<StackDivider borderColor="gray.200" />} h="100%" w="100%" spacing={6} w="100%"> spacing={6} w="100%">
+          <VStack divider={<StackDivider borderColor="gray.200" />} h="100%" spacing={6} w="100%">
             {opinions.map((opinion, index) => (
               <OpinionComment key={index} comment={opinion.comment} date={opinion.date} />
             ))}
