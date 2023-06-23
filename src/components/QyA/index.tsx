@@ -60,7 +60,7 @@ const QyA: React.FC = () => {
         <Heading fontSize="20px" fontWeight={600} mb={5}>
           ¿Qué querés saber?
         </Heading>
-        <Flex direction="row" flexWrap="wrap" minHeight="110px" spacing={0}>
+        <Flex direction="row" flexWrap="wrap" minHeight="110px">
           {faqs.map((faq: string) => {
             return (
               <Button key={faq} fontSize="14px" h="35px" marginInlineEnd="10px" variant="lightblue">
