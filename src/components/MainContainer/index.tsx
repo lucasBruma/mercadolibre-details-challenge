@@ -24,7 +24,7 @@ const MainContainer: React.FC = () => {
         width="69%"
       >
         <Gallery />
-        <Carrousel />
+        <Carrousel slides={3} />
         <Features />
         <VStack>
           <Description />

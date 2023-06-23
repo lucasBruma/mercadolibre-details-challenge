@@ -18,7 +18,7 @@ import {BiUser, BiChevronDown} from "react-icons/bi";
 import {Menu, MenuButton, MenuList, MenuItem, MenuGroup} from "@chakra-ui/react";
 import {ChevronDownIcon} from "@chakra-ui/icons";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/MyLogo.png";
 
 const Navbar: React.FC = () => {
   const {isOpen, onOpen, onClose} = useDisclosure();

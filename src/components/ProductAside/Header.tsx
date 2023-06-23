@@ -1,13 +1,18 @@
 import React from "react";
 import {Heading, Text, StackDivider, HStack, Icon, Box} from "@chakra-ui/react";
 import {AiOutlineHeart, AiFillHeart} from "react-icons/ai";
+import {AiFillStar} from "react-icons/ai";
 
 const Header = (): JSX.Element => {
   const [liked, setLiked] = React.useState(false);
 
   return (
     <>
-      <HStack divider={<StackDivider borderColor="gray.200" />}>
+      <HStack
+        color="blackAlpha.600"
+        divider={<StackDivider borderColor="gray.200" />}
+        fontSize="sm"
+      >
         <Text>Nuevo</Text>
         <Text>+100 vendidos</Text>
       </HStack>
@@ -29,6 +34,14 @@ const Header = (): JSX.Element => {
             </button>
           </Box>
         )}
+      </HStack>
+      <HStack color="#3483fa" spacing={1}>
+        <Icon as={AiFillStar} fontSize="15px" />
+        <Icon as={AiFillStar} fontSize="15px" />
+        <Icon as={AiFillStar} fontSize="15px" />
+        <Icon as={AiFillStar} fontSize="15px" />
+        <Icon as={AiFillStar} fontSize="15px" />
+        <Text>(8)</Text>
       </HStack>
     </>
   );

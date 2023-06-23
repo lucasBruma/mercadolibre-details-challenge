@@ -5,8 +5,7 @@ import {Navigation} from "swiper";
 
 import {ProductPicture} from "../../product/types";
 import infoCarrousel from "../../product/prodsCarrousel";
-
-import {CarrouselCard} from "./CarrouselCard";
+import {CarrouselCard} from "../Carrousel/CarrouselCard";
 
 //Data Carrousel
 
@@ -22,22 +21,22 @@ interface CarouselProps {
   slides: number;
 }
 
-const Carrousel = ({slides}: CarouselProps): JSX.Element => {
+const CarouselDetail = ({slides}: CarouselProps): JSX.Element => {
   const infoCards = infoCarrousel.infoCarrousel.pictures;
 
   return (
     <VStack mt={6} w={{base: "150px", md: 768, lg: "full"}}>
       <Text fontSize={24} ml={30} w={"full"}>
-        Publicaciones del vendedor
+        Quienes compraron este producto también compraron{" "}
       </Text>
-      <Stack marginTop={"30px !important"} overflowX="hidden" w={800}>
+      <Stack marginTop={"30px !important"} overflowX="hidden" w="100%">
         <Swiper
           loop={true}
           modules={[Navigation]}
           navigation={true}
           slidesPerView={slides}
           spaceBetween={0}
-          width={780}
+          width={1200}
         >
           {infoCards?.map((info: ProductPicture) => (
             <SwiperSlide key={info.id}>
@@ -46,17 +45,8 @@ const Carrousel = ({slides}: CarouselProps): JSX.Element => {
           ))}
         </Swiper>
       </Stack>
-      <HStack
-        alignItems={"start"}
-        marginBottom={"30px !important"}
-        paddingLeft={5}
-        paddingTop={5}
-        w={"full"}
-      >
-        <Link fontSize={14}>Ver más publicaciones del vendedor</Link>
-      </HStack>
     </VStack>
   );
 };
 
-export default Carrousel;
+export default CarouselDetail;

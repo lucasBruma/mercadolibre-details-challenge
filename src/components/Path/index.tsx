@@ -8,7 +8,7 @@ const Path: React.FC = () => {
   const producto = get.product;
 
   return (
-    <HStack alignItems="flex-end" fontSize="14px" justifyContent="space-between" mt=".5rem">
+    <HStack alignItems="flex-end" fontSize="14px" justifyContent="space-between" mt="1rem">
       <VStack alignItems="flex-start" spacing={4}>
         <HStack>
           <Text fontWeight="800">También puede interesarte:</Text>

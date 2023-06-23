@@ -20,7 +20,7 @@ export const CarrouselCard: React.FC<Props> = ({infoParaElCard}) => {
       _hover={{
         boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px;",
       }}
-      bgColor={"#fff"}
+      backgroundColor="#fff"
       border="1px solid"
       borderColor="blackAlpha.300"
       borderRadius="10px"

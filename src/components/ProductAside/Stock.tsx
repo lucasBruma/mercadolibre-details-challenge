@@ -11,7 +11,7 @@ const Stock = (): JSX.Element => {
       </Text>
       <HStack alignItems="center" spacing={3}>
         <Text>Cantidad:</Text>
-        <Select border="0" placeholder="1 unidad">
+        <Select border="0">
           {options.map((option) => (
             <option key={option}>{option}</option>
           ))}

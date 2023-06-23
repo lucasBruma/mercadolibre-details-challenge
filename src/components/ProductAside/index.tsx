@@ -18,7 +18,7 @@ const ProductAside = (): JSX.Element => {
       border="1px solid rgba(0,0,0,.1)"
       borderRadius=".5rem"
       p="1rem"
-      spacing={5}
+      spacing={3}
     >
       <Link>Ver más productos marca Nike</Link>
       <Header />

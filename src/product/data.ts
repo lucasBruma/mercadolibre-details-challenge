@@ -146,3 +146,11 @@ export interface Opinion {
   comment: string;
   date: string;
 }
+
+export interface CardShop {
+  link: string;
+  name: string;
+  price: string;
+  fees: string;
+  shop: string;
+}

@@ -75,7 +75,7 @@ export default {
       descriptions: [
         {
           id: "MLA741093357-1768858232",
-          text: `Recorda que este es un producto ficticio.
+          text: `Recorda que este es un producto ficticio. Todo esto forma parte de un Challenge de Programacion.
 
 Somos Mbappé Sports, con más de 60 años de trayectoria en el mercado que nos avalan y más de 50 sucursales distribuidas a lo largo de Buenos Aires, La Pampa y Río Negro. Queremos que vivas la Experiencia Open Sports a través de nuestro estilo de atención y servicio: comprometido, cálido y cercano.
 
